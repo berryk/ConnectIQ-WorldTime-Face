@@ -1,0 +1,7 @@
+<resources>
+    <string id="AppName">hello</string>
+    <font id="ArialBlack" filename="ArialBlack.fnt" />
+    <font id="ArialSmall" filename="ArialSmall.fnt" />
+    <bitmap id="btIcon" filename="images/bluetooth.png" />
+    <bitmap id="LauncherIcon" filename="images/launcher_icon.png" />
+</resources>
