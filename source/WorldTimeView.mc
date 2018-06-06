@@ -5,7 +5,7 @@ using Toybox.Lang as Lang;
 using Toybox.Time as Time;
 using Toybox.Time.Gregorian as Calendar;
 
-class helloView extends Ui.View {
+class WorldTimeView extends Ui.View {
 
 	var utcOffset = new Time.Duration(-Sys.getClockTime().timeZoneOffset);
 	

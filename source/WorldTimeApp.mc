@@ -1,7 +1,7 @@
 using Toybox.Application as App;
 using Toybox.WatchUi as Ui;
 
-class helloApp extends App.AppBase {
+class WorldTimeApp extends App.AppBase {
 
     function initialize() {
         AppBase.initialize();
@@ -17,7 +17,7 @@ class helloApp extends App.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-        return [ new helloView() ];
+        return [ new WorldTimeView() ];
     }
 
 }
