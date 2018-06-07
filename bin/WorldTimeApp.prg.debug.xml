@@ -195,9 +195,9 @@
 <entry endPc="268438375" name="dc" stackId="1" startPc="268437259"/>
 <entry endPc="268438375" name="color" stackId="4" startPc="268437259"/>
 <entry endPc="268438375" name="y" stackId="3" startPc="268437259"/>
-<entry endPc="268438857" name="rez_cmp_local_bitmap_W0JYIMNSKI_fontHeight" stackId="3" startPc="268438422"/>
-<entry endPc="268438857" name="rez_cmp_local_bitmap_W0JYIMNSKI" stackId="2" startPc="268438422"/>
+<entry endPc="268438857" name="rez_cmp_local_bitmap_2ER4Q9DO1X" stackId="2" startPc="268438422"/>
 <entry endPc="268438857" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268438422"/>
+<entry endPc="268438857" name="rez_cmp_local_bitmap_2ER4Q9DO1X_fontHeight" stackId="3" startPc="268438422"/>
 <entry endPc="268438858" name="dc" stackId="1" startPc="268438410"/>
 </localVars>
 <annotations/>

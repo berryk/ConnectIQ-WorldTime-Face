@@ -4,6 +4,8 @@ I work with teams all over the world and wanted a simple watchface that would sh
 
 This is what I came up with. 
 
+![shot1]
+
 It auto scales to whichever device you own. 
 
 It can support 6,4 or 2 additional timezones in addition to local time. 
@@ -17,3 +19,5 @@ It can support 6,4 or 2 additional timezones in addition to local time.
 ## Acknowledgements 
 
 This was built with the Garmin Connect IQ seed project 
+
+[shot1]: screenshots/WorldTime.png
