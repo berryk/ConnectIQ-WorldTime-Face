@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeApp.mc" lineNum="6" pc="268435456" symbol="initialize"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeApp.mc" lineNum="7" pc="268435460" symbol="initialize"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeApp.mc" lineNum="11" pc="268435479" symbol="onStart"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeApp.mc" lineNum="15" pc="268435484" symbol="onStop"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeApp.mc" lineNum="19" pc="268435489" symbol="getInitialView"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeApp.mc" lineNum="20" pc="268435493" symbol="getInitialView"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="43" pc="268435531" symbol="initialize"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="44" pc="268435535" symbol="initialize"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="48" pc="268435554" symbol="onLayout"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="50" pc="268435558" symbol="onLayout"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="52" pc="268435578" symbol="onLayout"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="53" pc="268435598" symbol="onLayout"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="54" pc="268435618" symbol="onLayout"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="55" pc="268435638" symbol="onLayout"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="56" pc="268435657" symbol="onLayout"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="57" pc="268435676" symbol="onLayout"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="58" pc="268435708" symbol="onLayout"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="59" pc="268435730" symbol="onLayout"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="64" pc="268435753" symbol="onShow"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="68" pc="268435758" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="70" pc="268435762" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="71" pc="268435779" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="73" pc="268435796" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="75" pc="268435832" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="78" pc="268435844" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="79" pc="268435932" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="80" pc="268435955" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="83" pc="268436032" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="84" pc="268436076" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="86" pc="268436185" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="87" pc="268436211" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="90" pc="268436273" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="91" pc="268436294" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="92" pc="268436325" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="94" pc="268436413" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="95" pc="268436420" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="96" pc="268436427" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="97" pc="268436446" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="98" pc="268436504" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="99" pc="268436511" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="100" pc="268436527" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="102" pc="268436531" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="105" pc="268436546" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="107" pc="268436559" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="109" pc="268436572" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="111" pc="268436585" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="112" pc="268436598" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="113" pc="268436614" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="114" pc="268436625" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="116" pc="268436638" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="117" pc="268436649" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="120" pc="268436662" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="122" pc="268436689" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="123" pc="268436696" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="124" pc="268436734" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="126" pc="268436753" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="127" pc="268436773" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="128" pc="268436780" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="132" pc="268436818" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="133" pc="268436837" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="135" pc="268436854" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="138" pc="268436870" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="139" pc="268436880" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="141" pc="268436890" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="142" pc="268436938" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="148" pc="268437009" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="152" pc="268437025" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="154" pc="268437032" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="156" pc="268437049" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="157" pc="268437069" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="166" pc="268437117" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="167" pc="268437134" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="168" pc="268437192" symbol="onUpdate"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="173" pc="268437249" symbol="onExitSleep"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/WorldTimeView.mc" lineNum="177" pc="268437254" symbol="onEnterSleep"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="6" pc="268437259" symbol="drawIcon"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="8" pc="268437271" symbol="drawIcon"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="9" pc="268437278" symbol="drawIcon"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="11" pc="268437285" symbol="drawIcon"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="12" pc="268437302" symbol="drawIcon"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="16" pc="268437328" symbol="drawIcon"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="17" pc="268437518" symbol="drawIcon"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="18" pc="268437720" symbol="drawIcon"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="19" pc="268437982" symbol="drawIcon"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="20" pc="268438184" symbol="drawIcon"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="23" pc="268438375" symbol="isConnected"/>
+<entry filename="/home/berryk/Documents/ConnectIQ-WorldTime-Face/././source/PhoneConnected.mc" lineNum="24" pc="268438387" symbol="isConnected"/>
+<entry filename="Rez" lineNum="22" pc="268438410" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="26" pc="268438422" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="27" pc="268438585" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="28" pc="268438610" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="29" pc="268438662" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="30" pc="268438778" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="33" pc="268438830" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="13" method="true" symbol="drawIcon"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="24" symbol="utcOffset"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry field="true" id="36" symbol="largeFont"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="32" symbol="textSize"/>
+<entry field="true" id="33" symbol="textHeight"/>
+<entry field="true" id="31" symbol="moveBarColors"/>
+<entry id="11" object="true" symbol="WorldTimeView"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="12" module="true" symbol="PhoneConnected"/>
+<entry id="19" method="true" symbol="MainLayout"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="35" symbol="smallFont"/>
+<entry field="true" id="30" symbol="faceHeight"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="23" symbol="AppName"/>
+<entry id="14" method="true" symbol="isConnected"/>
+<entry field="true" id="37" symbol="tzFont"/>
+<entry field="true" id="34" symbol="textWidth"/>
+<entry field="true" id="18" symbol="LauncherIcon"/>
+<entry field="true" id="21" symbol="menu_label_2"/>
+<entry field="true" id="20" symbol="menu_label_1"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="26" symbol="Countries"/>
+<entry field="true" id="17" symbol="id_monkey"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="38" symbol="tinyFont"/>
+<entry field="true" id="28" symbol="tzLocations"/>
+<entry id="16" module="true" symbol="Layouts"/>
+<entry field="true" id="22" symbol="prompt"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="29" symbol="faceWidth"/>
+<entry field="true" id="27" symbol="UTC_Offsets"/>
+<entry field="true" id="25" symbol="DST"/>
+<entry id="8389346" symbol="text"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="10" object="true" symbol="WorldTimeApp"/>
+<entry id="15" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
+<entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
+<entry endPc="268435753" name="dc" stackId="1" startPc="268435554"/>
+<entry endPc="268436805" name="tzHour" stackId="24" startPc="268436546"/>
+<entry endPc="268436805" name="tzOffset" stackId="23" startPc="268436546"/>
+<entry endPc="268436805" name="location" stackId="20" startPc="268436546"/>
+<entry endPc="268436805" name="tzCountry" stackId="21" startPc="268436546"/>
+<entry endPc="268436805" name="tzDST" stackId="22" startPc="268436546"/>
+<entry endPc="268436818" name="i" stackId="19" startPc="268436546"/>
+<entry endPc="268437248" name="tzString" stackId="12" startPc="268435762"/>
+<entry endPc="268437248" name="localTimeSize" stackId="5" startPc="268435762"/>
+<entry endPc="268437248" name="now" stackId="3" startPc="268435762"/>
+<entry endPc="268437248" name="utcNow" stackId="9" startPc="268435762"/>
+<entry endPc="268437248" name="xPosn" stackId="16" startPc="268435762"/>
+<entry endPc="268437248" name="row" stackId="13" startPc="268435762"/>
+<entry endPc="268437248" name="battSize" stackId="8" startPc="268435762"/>
+<entry endPc="268437248" name="utcTime" stackId="11" startPc="268435762"/>
+<entry endPc="268437248" name="batteryString" stackId="33" startPc="268435762"/>
+<entry endPc="268437248" name="y" stackId="18" startPc="268435762"/>
+<entry endPc="268437248" name="x" stackId="29" startPc="268435762"/>
+<entry endPc="268437248" name="goal" stackId="26" startPc="268435762"/>
+<entry endPc="268437248" name="dateStr" stackId="7" startPc="268435762"/>
+<entry endPc="268437248" name="localTime" stackId="4" startPc="268435762"/>
+<entry endPc="268437248" name="stepsString" stackId="28" startPc="268435762"/>
+<entry endPc="268437248" name="clockTime" stackId="2" startPc="268435762"/>
+<entry endPc="268437248" name="zones" stackId="14" startPc="268435762"/>
+<entry endPc="268437248" name="narrow" stackId="30" startPc="268435762"/>
+<entry endPc="268437248" name="tzPosn" stackId="17" startPc="268435762"/>
+<entry endPc="268437248" name="steps" stackId="27" startPc="268435762"/>
+<entry endPc="268437248" name="xGap" stackId="15" startPc="268435762"/>
+<entry endPc="268437248" name="settings" stackId="31" startPc="268435762"/>
+<entry endPc="268437248" name="info" stackId="6" startPc="268435762"/>
+<entry endPc="268437248" name="utcInfo" stackId="10" startPc="268435762"/>
+<entry endPc="268437248" name="activityInfo" stackId="25" startPc="268435762"/>
+<entry endPc="268437248" name="stats" stackId="32" startPc="268435762"/>
+<entry endPc="268437249" name="dc" stackId="1" startPc="268435758"/>
+<entry endPc="268438374" name="size" stackId="5" startPc="268437271"/>
+<entry endPc="268438374" name="width" stackId="6" startPc="268437271"/>
+<entry endPc="268438375" name="x" stackId="2" startPc="268437259"/>
+<entry endPc="268438375" name="dc" stackId="1" startPc="268437259"/>
+<entry endPc="268438375" name="color" stackId="4" startPc="268437259"/>
+<entry endPc="268438375" name="y" stackId="3" startPc="268437259"/>
+<entry endPc="268438857" name="rez_cmp_local_bitmap_W0JYIMNSKI_fontHeight" stackId="3" startPc="268438422"/>
+<entry endPc="268438857" name="rez_cmp_local_bitmap_W0JYIMNSKI" stackId="2" startPc="268438422"/>
+<entry endPc="268438857" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268438422"/>
+<entry endPc="268438858" name="dc" stackId="1" startPc="268438410"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="WorldTimeApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="WorldTimeApp">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="WorldTimeApp">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="WorldTimeApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="WorldTimeView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="WorldTimeView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="WorldTimeView">
+<documentation><![CDATA[<div class="description"> Restore the state of the app and prepare the view to be shown<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="WorldTimeView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="WorldTimeView">
+<documentation><![CDATA[<div class="description"> The user has just looked at their watch. Timers and animations may be started here.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="WorldTimeView">
+<documentation><![CDATA[<div class="description"> Terminate any active timers and prepare for slow updates.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="drawIcon" parent="PhoneConnected">
+<param id="dc"/>
+<param id="x"/>
+<param id="y"/>
+<param id="color"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="isConnected" parent="PhoneConnected">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="95" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="190" parentId="globals" symbolId="WorldTimeApp" type="class"/>
+<dataEntry offset="261" parentId="globals" symbolId="PhoneConnected" type="module"/>
+<dataEntry offset="308" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="387" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="434" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="465" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="496" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="527" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="566" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="629" parentId="globals" symbolId="WorldTimeView" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>

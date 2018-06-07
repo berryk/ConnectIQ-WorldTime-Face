@@ -152,11 +152,16 @@ class WorldTimeView extends Ui.View {
 	var narrow = 80;
 
         var settings = Sys.getDeviceSettings();
-        if(settings.phoneConnected)
-	{
- 		//dc.drawBitmap(14,56,bluetoothImage);
-		dc.drawText(narrow, 0, tinyFont, "B", Gfx.TEXT_JUSTIFY_LEFT);
+
+        if (PhoneConnected.isConnected()) {
+            PhoneConnected.drawIcon(dc, narrow+1, 10, Gfx.COLOR_WHITE);
         }
+
+        //if(settings.phoneConnected)
+	//{
+ 		//dc.drawBitmap(14,56,bluetoothImage);
+//		dc.drawText(narrow, 0, tinyFont, "B", Gfx.TEXT_JUSTIFY_LEFT);
+//        }
         
         var stats = Sys.getSystemStats();
         var batteryString = Lang.format("$1$%",[stats.battery.format("%d")]);
