@@ -4,30 +4,14 @@ using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 using Toybox.Time as Time;
 using Toybox.Time.Gregorian as Calendar;
+using Toybox.Application as Application; 
 
 class WorldTimeView extends Ui.View {
 
 	var utcOffset = new Time.Duration(-Sys.getClockTime().timeZoneOffset);
 	
-	var DST = { "Aust" => 0, "USA" => 1, "EMEA" => 1, "China" => 0 };
-	
-	var Countries = { 	"MLB" => "Aust", 
-						"HKG" => "China",
-						"LON" => "EMEA",
-						"NYC" => "USA",
-						"OMA" => "USA",
-						"SFO" => "USA" }; 
-						
-	
-	var UTC_Offsets = {	"MLB" => 10, 
-						"HKG" => 8,
-						"LON" => 0,
-						"NYC" => -5,
-						"OMA" => -6,
-						"SFO" => -8 };
-						
-	//var tzLocations = [ "LON", "HKG", "MLB", "SFO", "OMA", "NYC"];
-	var tzLocations = [ "LON", "HKG", "SFO", "NYC"];
+	var tzLocations = [];
+	var UTC_Offsets = {};
 	
     var faceWidth;
     var faceHeight;
@@ -41,6 +25,23 @@ class WorldTimeView extends Ui.View {
     var tinyFont;
     
     function initialize() {
+        var timezoneSetting = Application.getApp().getProperty("timezones");
+        for (var i = 1; i <= timezoneSetting; i++) {
+		var name = Application.getApp().getProperty("tz"+i+"_name");
+		var offset = Application.getApp().getProperty("tz"+i+"_offset");
+		var dst = Application.getApp().getProperty("tz"+i+"_dst");
+		if (name.equals("")) {
+			continue;
+		} else {
+			tzLocations.add(name);
+		        System.println("Name:<"+name+">");	
+			if (dst == true ) {
+				offset = offset+1;
+			}
+			UTC_Offsets.put(name,offset);
+		}
+	}
+
         View.initialize();
     } 
 						
@@ -94,6 +95,13 @@ class WorldTimeView extends Ui.View {
         var tzString="";
         var row = 0;
         var zones = tzLocations.size();
+	
+	if (zones > 4) {
+		tzFont = Gfx.FONT_SMALL; 
+	} else {
+		tzFont = Gfx.FONT_MEDIUM;
+	}
+ 
         var xGap = ((faceWidth - (zones/2)*textWidth)/((zones/2)+1))+0.5*textWidth ;
         var xPosn = 0; 
         var tzPosn = battSize[1]*2;
@@ -103,13 +111,8 @@ class WorldTimeView extends Ui.View {
         	
         	
      		var location = tzLocations[i];
-        	// Look up the country for the tz
-		var tzCountry = Countries[location]; 
-		// Is the country in DST
-		var tzDST = DST[tzCountry];
-		// What is the UTC Offset
 		var tzOffset = UTC_Offsets[location];
-		var tzHour = utcInfo.hour + tzDST + tzOffset;
+		var tzHour = utcInfo.hour + tzOffset;
 		if (tzHour > 23){
 			tzHour = tzHour - 24; 
 		}
@@ -140,29 +143,17 @@ class WorldTimeView extends Ui.View {
         
         var stepsString = Lang.format("$1$/$2$", [steps, goal]);
         dc.drawText(faceWidth/2, faceHeight - (battSize[1]*2), smallFont, stepsString, Gfx.TEXT_JUSTIFY_CENTER);
-        
-        //var distanceInMiles = activityInfo.distance.toFloat() / 160934;
-        //var milesString = Lang.format("$1$mi",[distanceInMiles.format("%.02f")]);
-        //dc.drawText(0, faceHeight - textHeight, smallFont, milesString, Gfx.TEXT_JUSTIFY_LEFT);
 
         var x = faceWidth / 2;
-        //var y = dc.getHeight() / 3;
-        //var x=0;
 
 	var narrow = 80;
 
         var settings = Sys.getDeviceSettings();
 
         if (PhoneConnected.isConnected()) {
-            PhoneConnected.drawIcon(dc, narrow+1, 10, Gfx.COLOR_WHITE);
+            PhoneConnected.drawIcon(dc, narrow+1, 12, Gfx.COLOR_WHITE);
         }
 
-        //if(settings.phoneConnected)
-	//{
- 		//dc.drawBitmap(14,56,bluetoothImage);
-//		dc.drawText(narrow, 0, tinyFont, "B", Gfx.TEXT_JUSTIFY_LEFT);
-//        }
-        
         var stats = Sys.getSystemStats();
         var batteryString = Lang.format("$1$%",[stats.battery.format("%d")]);
         dc.drawText(faceWidth-1-narrow, 0, tinyFont, batteryString, Gfx.TEXT_JUSTIFY_RIGHT);
@@ -177,4 +168,26 @@ class WorldTimeView extends Ui.View {
     function onEnterSleep() {
     }
 
+    function settingsChanged() {
+
+        tzLocations = [];
+	UTC_Offsets = {};
+        var timezoneSetting = Application.getApp().getProperty("timezones");
+        for (var i = 1; i <= timezoneSetting; i++) {
+		var name = Application.getApp().getProperty("tz"+i+"_name");
+		var offset = Application.getApp().getProperty("tz"+i+"_offset");
+		var dst = Application.getApp().getProperty("tz"+i+"_dst");
+		if (name.equals("")) {
+			continue;
+		} else {
+			tzLocations.add(name);
+		        System.println("Name:<"+name+">");	
+			if (dst == true ) {
+				offset = offset+1;
+			}
+			UTC_Offsets.put(name,offset);
+		}
+	}
+    } 
+						
 }

@@ -3,6 +3,8 @@ using Toybox.WatchUi as Ui;
 
 class WorldTimeApp extends App.AppBase {
 
+    var face;
+
     function initialize() {
         AppBase.initialize();
     }
@@ -17,7 +19,13 @@ class WorldTimeApp extends App.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-        return [ new WorldTimeView() ];
+        face = new WorldTimeView(); 
+	return [ face ];
+    }
+
+    function onSettingsChanged() {
+    	face.settingsChanged();
+        Ui.requestUpdate();
     }
 
 }
