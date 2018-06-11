@@ -101,6 +101,9 @@ class WorldTimeView extends Ui.View {
 	} else {
 		tzFont = Gfx.FONT_MEDIUM;
 	}
+        textSize = dc.getTextDimensions("MLB:20", tzFont);
+        textHeight = textSize[1];
+        textWidth = textSize[0];
  
         var xGap = ((faceWidth - (zones/2)*textWidth)/((zones/2)+1))+0.5*textWidth ;
         var xPosn = 0; 
