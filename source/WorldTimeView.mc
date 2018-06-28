@@ -3,10 +3,12 @@ using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 using Toybox.Time as Time;
+using Toybox.ActivityMonitor as ActMon;
 using Toybox.Time.Gregorian as Calendar;
 using Toybox.Application as Application; 
+using PhoneConnected as PhConnected;
 
-class WorldTimeView extends Ui.View {
+class WorldTimeView extends Ui.WatchFace {
 
 	var utcOffset = new Time.Duration(-Sys.getClockTime().timeZoneOffset);
 	
@@ -42,7 +44,7 @@ class WorldTimeView extends Ui.View {
 		}
 	}
 
-        View.initialize();
+        WatchFace.initialize();
     } 
 						
     //! Load your resources here
@@ -135,7 +137,7 @@ class WorldTimeView extends Ui.View {
 		}
 	}
 		
-	var activityInfo = ActivityMonitor.getInfo();
+	var activityInfo = ActMon.getInfo();
         if(activityInfo.stepGoal == 0)
         {
             activityInfo.stepGoal = 5000;
@@ -151,10 +153,8 @@ class WorldTimeView extends Ui.View {
 
 	var narrow = 80;
 
-        var settings = Sys.getDeviceSettings();
-
-        if (PhoneConnected.isConnected()) {
-            PhoneConnected.drawIcon(dc, narrow+1, 12, Gfx.COLOR_WHITE);
+        if (PhConnected.isConnected()) {
+            PhConnected.drawIcon(dc, narrow+1, 12, Gfx.COLOR_WHITE);
         }
 
         var stats = Sys.getSystemStats();

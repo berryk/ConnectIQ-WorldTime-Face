@@ -6,6 +6,7 @@ build:
 	$(SDK_HOME)/bin/monkeyc \
 	--jungles ./monkey.jungle \
 	--device $(DEVICE) \
+	--debug \
 	--output bin/$(appName).prg \
 	--private-key $(PRIVATE_KEY) \
 	--warn
@@ -38,3 +39,13 @@ package:
 	--output bin/$(appName).iq \
 	--private-key $(PRIVATE_KEY) \
 	--warn
+
+packaged:
+	@$(SDK_HOME)/bin/monkeyc \
+	--jungles ./monkey.jungle \
+	--package-app \
+	--output bin/$(appName).iq \
+	--private-key $(PRIVATE_KEY) \
+	--debug \	
+	--warn
+
